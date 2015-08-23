@@ -1,4 +1,4 @@
 sublime-rt
 ============
 
-React Templates Syntax Highlighting for Sublime Text 3
+Provides [React Templates](http://wix.github.io/react-templates/) syntax highlighting for Sublime Text
