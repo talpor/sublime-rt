@@ -1,0 +1,14 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+name: React Templates
+scopeName: text.html.rt
+fileTypes: [rt]
+uuid: b9225a83-611a-4f0a-bd66-4180d3b6a21b
+
+patterns:
+- name: storage.type.expresion.script
+  begin: '{'
+  end: '}'
+  captures:
+    '0': {name: entity.tag.tagbraces.rt}
+
+- include: text.xml
